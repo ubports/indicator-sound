@@ -1,8 +1,6 @@
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-include(FindGMock)
-
 #pkg_check_modules(GMENUHARNESS REQUIRED libgmenuharness REQUIRED)
 #include_directories(${GMENUHARNESS_INCLUDE_DIRS})
 include_directories("${CMAKE_SOURCE_DIR}/include")
@@ -21,7 +19,6 @@ include_directories(${Qt5DBus_INCLUDE_DIRS})
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${GMOCK_INCLUDE_DIRS})
-include_directories(${GTEST_INCLUDE_DIRS})
 
 include_directories("${CMAKE_SOURCE_DIR}/tests/dbus-types")
 include_directories("${CMAKE_BINARY_DIR}/tests/dbus-types")
@@ -71,17 +68,31 @@ target_link_libraries(
     sound-indicator-dbus-interfaces
     ${QTDBUSMOCK_LDFLAGS}
     ${QTDBUSTEST_LDFLAGS}
-    ${GTEST_LIBRARIES}
     ${GMOCK_LIBRARIES}
 #    ${GMENUHARNESS_LDFLAGS}
     ${GLIB_LDFLAGS}
     gmenuharness-shared
 )
 
-add_test(
-    integration-tests
-    integration-tests
+####
+## When building under jenkins, pulseuadio fails to start as there is no
+## /run/user tree, HOME directory is missing, and similar issues. So here
+## we check that we are the jenkins user, and avoid the integration tests,
+## until such time in future when we can run these tests in some different
+## manner to avoid needing to run pulseaudio in this way.
+####
+execute_process(
+  COMMAND whoami
+  OUTPUT_VARIABLE TESTS_USER
+  OUTPUT_STRIP_TRAILING_WHITESPACE
 )
+
+if(NOT "${TESTS_USER}" STREQUAL "jenkins")
+  add_test(
+    integration-tests
+    integration-tests
+  )
+endif()
 
 set(
     SET-VOLUME-SRC
@@ -130,3 +141,10 @@ target_link_libraries(
 )
 
 #add_subdirectory(utils)
+
+# coverage reporting
+set(COVERAGE_TEST_TARGETS
+  ${COVERAGE_TEST_TARGETS}
+  integration-tests
+  PARENT_SCOPE
+)

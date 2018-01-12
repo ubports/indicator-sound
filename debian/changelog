@@ -1,8 +1,62 @@
-indicator-sound (12.10.3+ubports) vivid; urgency=medium
+indicator-sound (12.10.3+ubports) xenial; urgency=medium
 
   * Imported to UBports
 
- -- UBports auto importer <infra@ubports.com>  Sun, 23 Jul 2017 17:45:01 +0200
+ -- UBports auto importer <infra@ubports.com>  Fri, 12 Jan 2018 09:26:02 +0000
+
+indicator-sound (12.10.2+17.10.20170829.1-0ubuntu1) artful; urgency=medium
+
+  [ Andrea Azzarone ]
+  * Include <functional> to fix a build issues with g++7.
+
+  [ Sebastien Bacher ]
+  * use 'X-Ubuntu-Use-Langpack: yes' since the indicator is now in
+    universe,
+
+ -- Andrea Azzarone <andrea.azzarone@canonical.com>  Tue, 29 Aug 2017 15:37:05 +0000
+
+indicator-sound (12.10.2+17.10.20170616-0ubuntu1) artful; urgency=medium
+
+  * Fix build with vala 0.36
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Fri, 16 Jun 2017 17:42:40 +0000
+
+indicator-sound (12.10.2+17.10.20170605-0ubuntu1) artful; urgency=medium
+
+  * Drop alternate recommends on ubuntu-system-settings
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 05 Jun 2017 22:06:42 +0000
+
+indicator-sound (12.10.2+17.04.20170328.1-0ubuntu1) zesty; urgency=medium
+
+  * Disable integration tests when running under jenkins environment for
+    now.
+
+ -- Rodney Dawes <rodney.dawes@canonical.com>  Tue, 28 Mar 2017 15:04:32 +0000
+
+indicator-sound (12.10.2+17.04.20170208-0ubuntu1) zesty; urgency=medium
+
+  * Remove old autostart files.
+  * Remove the local gsettings cmake module which we don't need/use.
+  * Use only the gmock module from cmake-extras.
+  * Use coverage support from cmake-extras.
+  * Use intltool support from cmake-extras.
+
+ -- Rodney Dawes <rodney.dawes@canonical.com>  Wed, 08 Feb 2017 04:38:44 +0000
+
+indicator-sound (12.10.2+17.04.20170109-0ubuntu1) zesty; urgency=medium
+
+  * Compatibility with unversioned cmake-extras modules (LP: #1563573)
+
+ -- Pete Woods <pete.woods@canonical.com>  Mon, 09 Jan 2017 14:20:04 +0000
+
+indicator-sound (12.10.2+17.04.20161201-0ubuntu1) zesty; urgency=medium
+
+  [ Michael Terry ]
+  * Work when inside a snap by prefixing hard coded paths with $SNAP.
+    (LP: #1629009, #1645833)
+
+ -- Rodney Dawes <rodney.dawes@canonical.com>  Thu, 01 Dec 2016 22:33:58 +0000
 
 indicator-sound (12.10.2+17.04.20161021-0ubuntu1) zesty; urgency=medium
 
