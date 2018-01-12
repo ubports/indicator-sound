@@ -1,3 +1,10 @@
+indicator-sound (12.10.4+ubports) xenial; urgency=medium
+
+  * Import latest from lp
+  * Update Jenkinsfile
+
+ -- Dan Chapman <dan@ubports.com>  Fri, 12 Jan 2018 09:34:50 +0000
+
 indicator-sound (12.10.3+ubports) xenial; urgency=medium
 
   * Imported to UBports
