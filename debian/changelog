@@ -1,4 +1,4 @@
-indicator-sound (12.10.4+ubports) xenial; urgency=medium
+indicator-sound (12.10.4+ubports) bionic; urgency=medium
 
   * Import latest from lp
   * Update Jenkinsfile
