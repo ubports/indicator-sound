@@ -1,8 +1,11 @@
 [Unit]
 Description=Indicator Sound Service
 PartOf=graphical-session.target
-After=indicators-pre.target
+PartOf=indicators.target
 
 [Service]
 ExecStart=@CMAKE_INSTALL_FULL_LIBEXECDIR@/indicator-sound/indicator-sound-service
 Restart=on-failure
+
+[Install]
+WantedBy=indicators.target
