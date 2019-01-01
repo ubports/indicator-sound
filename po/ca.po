@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-01-01 22:38+0000\n"
+"PO-Revision-Date: 2019-01-06 00:00+0000\n"
 "Last-Translator: Jaume Angrill <txaume@protonmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/ca/>\n"
@@ -61,7 +61,7 @@ msgstr "Auriculars HDMI"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr "Silenciar"
+msgstr "Silencia"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
