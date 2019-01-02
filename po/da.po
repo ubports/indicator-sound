@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-01-02 17:32+0000\n"
+"PO-Revision-Date: 2019-01-06 00:00+0000\n"
 "Last-Translator: Tom Rausner <tomrausner@gmail.com>\n"
 "Language-Team: Danish <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/da/>\n"
@@ -73,7 +73,7 @@ msgstr "Lydindstillinger…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr "Mikrofon lydstyrke"
+msgstr "Mikrofon Lydstyrke"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
@@ -118,7 +118,7 @@ msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr "Afbryd"
+msgstr "Annullér"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
