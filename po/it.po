@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-01-06 00:00+0000\n"
-"Last-Translator: Ennio Lavagnini <ennio.lavagnini@protonmail.com>\n"
+"PO-Revision-Date: 2019-01-12 10:53+0000\n"
+"Last-Translator: Mike <miguel2000@livecom.it>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/it/>\n"
 "Language: it\n"
@@ -78,7 +78,7 @@ msgstr "Volume del microfono"
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr "Un volume alto può danneggiare il tuo udito"
+msgstr "L'ascolto a volume alto può danneggiare il tuo udito."
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
