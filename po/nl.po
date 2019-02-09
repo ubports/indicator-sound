@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-02-06 14:47+0000\n"
-"Last-Translator: PomGit <pom@disroot.org>\n"
+"PO-Revision-Date: 2019-03-07 21:53+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/nl/>\n"
 "Language: nl\n"
@@ -37,27 +37,27 @@ msgstr "Koptelefoon"
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr "Bluetooth koptelefoon"
+msgstr "Bluetooth-koptelefoon"
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr "Bluetooth luidspreker"
+msgstr "Bluetooth-luidspreker"
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr "USB luidspreker"
+msgstr "USB-luidspreker"
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr "USB koptelefoon"
+msgstr "USB-koptelefoon"
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr "HDMI luidspreker"
+msgstr "HDMI-luidspreker"
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr "HDMI koptelefoon"
+msgstr "HDMI-koptelefoon"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
@@ -78,7 +78,7 @@ msgstr "Microfoonvolume"
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr "Hoog volume kan uw gehoor beschadigen."
+msgstr "Een hoog volumeniveau kan je gehoor beschadigen."
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
@@ -98,15 +98,15 @@ msgstr "Volume (HDMI)"
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr "Volume (Bluetooth koptelefoon)"
+msgstr "Volume (Bluetooth-koptelefoon)"
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr "Volume (USB koptelefoon)"
+msgstr "Volume (USB-koptelefoon)"
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr "Volume (HDMI koptelefoon)"
+msgstr "Volume (HDMI-koptelefoon)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
@@ -118,7 +118,7 @@ msgstr "Oké"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Afbreken"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
@@ -126,7 +126,7 @@ msgstr "Volume (gedempt)"
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr "Stil"
+msgstr "stil"
 
 #: ../src/service.vala:304
 msgid "Sound"
