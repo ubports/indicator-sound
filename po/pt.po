@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-01-01 20:34+0000\n"
+"PO-Revision-Date: 2019-03-07 21:54+0000\n"
 "Last-Translator: Ivo Xavier <ivofernandes12@gmail.com>\n"
 "Language-Team: Portuguese <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/pt/>\n"
@@ -114,7 +114,7 @@ msgstr "Escolher lista de reprodução"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "Confirmar"
+msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
