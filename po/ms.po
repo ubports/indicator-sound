@@ -8,16 +8,13 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-01-02 14:41+0000\n"
-"Last-Translator: Louies <louies0623@gmail.com>\n"
-"Language-Team: Chinese (Traditional) <https://translate.ubports.com/projects/"
-"ubports/indicator-sound/zh_Hant/>\n"
-"Language: zh_Hant\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.1.1\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
 #: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
@@ -25,109 +22,109 @@ msgstr ""
 #: ../src/service.vala:299
 #, c-format
 msgid "Volume"
-msgstr "音量"
+msgstr ""
 
 #: ../src/info-notification.vala:55
 msgid "Speakers"
-msgstr "喇叭"
+msgstr ""
 
 #: ../src/info-notification.vala:57
 msgid "Headphones"
-msgstr "耳機"
+msgstr ""
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr "藍牙耳機"
+msgstr ""
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr "藍牙喇叭"
+msgstr ""
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr "Usb 喇叭"
+msgstr ""
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr "Usb 耳機"
+msgstr ""
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr "HDMI 喇叭"
+msgstr ""
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr "HDMI 耳機"
+msgstr ""
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr "靜音"
+msgstr ""
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
-msgstr "靜音模式"
+msgstr ""
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
-msgstr "聲音設定…"
+msgstr ""
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr "麥克風音量"
+msgstr ""
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr "音量過大可能會損害您的聽力。"
+msgstr ""
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
-msgstr "音量 (耳機)"
+msgstr ""
 
 #: ../src/sound-menu.vala:257
 msgid "Volume (Bluetooth)"
-msgstr "音量 (藍牙)"
+msgstr ""
 
 #: ../src/sound-menu.vala:260
 msgid "Volume (Usb)"
-msgstr "音量 (Usb)"
+msgstr ""
 
 #: ../src/sound-menu.vala:263
 msgid "Volume (HDMI)"
-msgstr "音量 (HDMI)"
+msgstr ""
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr "音量 (藍牙耳機)"
+msgstr ""
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr "音量 (Usb 耳機)"
+msgstr ""
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr "音量 (HDMI 耳機)"
+msgstr ""
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
-msgstr "選擇播放清單"
+msgstr ""
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "確定"
+msgstr ""
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr "取消"
+msgstr ""
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
-msgstr "音量 (靜音)"
+msgstr ""
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr "靜音"
+msgstr ""
 
 #: ../src/service.vala:304
 msgid "Sound"
-msgstr "聲音"
+msgstr ""
