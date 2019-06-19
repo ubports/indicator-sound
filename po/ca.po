@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-05-03 21:03+0000\n"
+"PO-Revision-Date: 2019-06-20 02:04+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/ca/>\n"
@@ -114,7 +114,7 @@ msgstr "Seleccioneu llista de reproducció"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "Acceptar"
+msgstr "D'acord"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
