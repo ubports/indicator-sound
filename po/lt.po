@@ -8,13 +8,18 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-08-01 21:49+0000\n"
+"Last-Translator: Moo <moose@mail.ru>\n"
+"Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
+"indicator-sound/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
 #: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
@@ -22,88 +27,88 @@ msgstr ""
 #: ../src/service.vala:299
 #, c-format
 msgid "Volume"
-msgstr ""
+msgstr "Garsis"
 
 #: ../src/info-notification.vala:55
 msgid "Speakers"
-msgstr ""
+msgstr "Garsiakalbiai"
 
 #: ../src/info-notification.vala:57
 msgid "Headphones"
-msgstr ""
+msgstr "Ausinės"
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr ""
+msgstr "Bluetooth ausinės"
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr ""
+msgstr "Bluetooth garsiakalbis"
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr ""
+msgstr "USB garsiakalbis"
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr ""
+msgstr "USB ausinės"
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr ""
+msgstr "HDMI garsiakalbis"
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr ""
+msgstr "HDMI ausinės"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr ""
+msgstr "Nutildyti"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
-msgstr ""
+msgstr "Begarsė veiksena"
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
-msgstr ""
+msgstr "Garso nustatymai…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr ""
+msgstr "Mikrofono garsis"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Didelis garsis gali pažeisti jūsų klausą."
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
-msgstr ""
+msgstr "Garsis (Ausinės)"
 
 #: ../src/sound-menu.vala:257
 msgid "Volume (Bluetooth)"
-msgstr ""
+msgstr "Garsis (Bluetooth)"
 
 #: ../src/sound-menu.vala:260
 msgid "Volume (Usb)"
-msgstr ""
+msgstr "Garsis (USB)"
 
 #: ../src/sound-menu.vala:263
 msgid "Volume (HDMI)"
-msgstr ""
+msgstr "Garsis (HDMI)"
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr ""
+msgstr "Garsis (Bluetooth ausinės)"
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr ""
+msgstr "Garsis (USB ausinės)"
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr ""
+msgstr "Garsis (HDMI ausinės)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
@@ -111,15 +116,15 @@ msgstr ""
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr ""
+msgstr "Gerai"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr ""
+msgstr "Atsisakyti"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
-msgstr ""
+msgstr "Garsis (nutildytas)"
 
 #: ../src/service.vala:296
 msgid "silent"
@@ -127,4 +132,4 @@ msgstr ""
 
 #: ../src/service.vala:304
 msgid "Sound"
-msgstr ""
+msgstr "Garsas"
