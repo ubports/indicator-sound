@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-01-01 19:41+0000\n"
+"PO-Revision-Date: 2019-09-15 11:50+0000\n"
 "Last-Translator: Daniel Frańczak <danielfranczak5@wp.pl>\n"
 "Language-Team: Polish <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.8\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
 #: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
@@ -115,7 +115,7 @@ msgstr "Wybierz listę odtwarzania"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "Ok"
+msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
