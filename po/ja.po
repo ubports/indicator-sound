@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
+"PO-Revision-Date: 2019-11-10 18:36+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/ja/>\n"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "完了"
+msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
