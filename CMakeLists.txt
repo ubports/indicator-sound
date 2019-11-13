@@ -3,6 +3,9 @@ cmake_minimum_required(VERSION 2.8.9)
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" "${CMAKE_MODULE_PATH}")
 
+include(GNUInstallDirs)
+include(UseVala)
+
 set(PACKAGE ${CMAKE_PROJECT_NAME})
 set(GETTEXT_PACKAGE indicator-sound)
 set(GNOMELOCALEDIR "${CMAKE_INSTALL_FULL_DATADIR}/locale")
@@ -10,8 +13,6 @@ set(GNOMELOCALEDIR "${CMAKE_INSTALL_FULL_DATADIR}/locale")
 add_definitions( -DGETTEXT_PACKAGE="${GETTEXT_PACKAGE}" )
 
 find_package(PkgConfig REQUIRED)
-include(GNUInstallDirs)
-include(UseVala)
 
 # Workaround for libexecdir on debian
 if (EXISTS "/etc/debian_version") 
