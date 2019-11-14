@@ -1,16 +1,23 @@
-project(indicator-sound C CXX)
-cmake_minimum_required(VERSION 2.8.9)
+project (indicator-sound C CXX)
+cmake_minimum_required (VERSION 2.8.9)
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" "${CMAKE_MODULE_PATH}")
 
-set(PACKAGE ${CMAKE_PROJECT_NAME})
-set(GETTEXT_PACKAGE indicator-sound)
-set(GNOMELOCALEDIR "${CMAKE_INSTALL_FULL_DATADIR}/locale")
+##
+##  GNU standard installation directories
+## 
+include (GNUInstallDirs)
 
-add_definitions( -DGETTEXT_PACKAGE="${GETTEXT_PACKAGE}" )
+set (PROJECT_VERSION "16.10.0")
+set (PACKAGE ${CMAKE_PROJECT_NAME})
+set (GETTEXT_PACKAGE indicator-sound)
+add_definitions (
+    -DGETTEXT_PACKAGE="${GETTEXT_PACKAGE}"
+    -DGNOMELOCALEDIR="${CMAKE_INSTALL_FULL_LOCALEDIR}"
+)
 
 find_package(PkgConfig REQUIRED)
-include(GNUInstallDirs)
+
 include(UseVala)
 
 # Workaround for libexecdir on debian
