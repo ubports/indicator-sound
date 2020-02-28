@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2019-09-15 11:50+0000\n"
-"Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
+"PO-Revision-Date: 2020-02-29 19:22+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/cs/>\n"
 "Language: cs\n"
@@ -73,7 +73,7 @@ msgstr "Nastavení zvuku…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr "Hlasitost mikrofónu"
+msgstr "Hlasitost mikrofonu"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
@@ -110,23 +110,23 @@ msgstr "Hlasitost (HDMI sluchátek)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
-msgstr "Zvolte playlist"
+msgstr "Zvolte seznam stop"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "Přijmout"
+msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr "Zrušit"
+msgstr "Storno"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
-msgstr "Hlasitost (ztlumena)"
+msgstr "Hlasitost (ztlumeno)"
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr "Ztlumit"
+msgstr "ztlumit"
 
 #: ../src/service.vala:304
 msgid "Sound"
