@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-02-21 05:21+0000\n"
-"Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
-"Language-Team: English (Canada) <https://translate.ubports.com/projects/"
-"ubports/indicator-sound/en_CA/>\n"
-"Language: en_CA\n"
+"PO-Revision-Date: 2020-02-17 12:21+0000\n"
+"Last-Translator: dano6 <dano.kutka@gmail.com>\n"
+"Language-Team: Slovak <https://translate.ubports.com/projects/ubports/"
+"indicator-sound/sk/>\n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 3.8\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
@@ -25,92 +25,92 @@ msgstr ""
 #: ../src/service.vala:299
 #, c-format
 msgid "Volume"
-msgstr "Volume"
+msgstr "Hlasitosť"
 
 #: ../src/info-notification.vala:55
 msgid "Speakers"
-msgstr "Speakers"
+msgstr "Reproduktory"
 
 #: ../src/info-notification.vala:57
 msgid "Headphones"
-msgstr "Headphones"
+msgstr "Slúchadlá"
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr "Bluetooth headphones"
+msgstr "Bluetooth slúchadlá"
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr "Bluetooth speaker"
+msgstr "Bluetooth reproduktor"
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr "USB speaker"
+msgstr "USB reproduktor"
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr "USB headphones"
+msgstr "USB slúchadlá"
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr "HDMI speaker"
+msgstr "HDMI reproduktor"
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr "HDMI headphones"
+msgstr "HDMI slúchadlá"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr "Mute"
+msgstr "Stlmiť"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
-msgstr "Silent Mode"
+msgstr "Tichý režim"
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
-msgstr "Sound Settings…"
+msgstr "Nastavenia zvuku…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr "Microphone Volume"
+msgstr "Hlasitosť mikrofónu"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr "High volume can damage your hearing."
+msgstr "Vysoká hlasitosť môže poškodiť váš sluch."
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
-msgstr "Volume (Headphones)"
+msgstr "Hlasitosť (slúchadlá)"
 
 #: ../src/sound-menu.vala:257
 msgid "Volume (Bluetooth)"
-msgstr "Volume (Bluetooth)"
+msgstr "Hlasitosť (bluetooth)"
 
 #: ../src/sound-menu.vala:260
 msgid "Volume (Usb)"
-msgstr "Volume (USB)"
+msgstr "Hlasitosť (USB)"
 
 #: ../src/sound-menu.vala:263
 msgid "Volume (HDMI)"
-msgstr "Volume (HDMI)"
+msgstr "Hlasitosť (HDMI)"
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr "Volume (Bluetooth headphones)"
+msgstr "Hlasitosť (Bluetooth slúchadlá)"
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr "Volume (USB headphones)"
+msgstr "Hlasitosť (USB slúchadlá)"
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr "Volume (HDMI headphones)"
+msgstr "Hlasitosť (HDMI slúchadlá)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
-msgstr "Choose Playlist"
+msgstr "Zvoľte playlist"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
@@ -118,16 +118,16 @@ msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "Zrušiť"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
-msgstr "Volume (muted)"
+msgstr "Hlasitosť (stlmená)"
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr "Silent"
+msgstr "Stlmiť"
 
 #: ../src/service.vala:304
 msgid "Sound"
-msgstr "Sound"
+msgstr "Zvuk"

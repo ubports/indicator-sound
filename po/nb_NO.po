@@ -8,11 +8,11 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-02-21 05:21+0000\n"
-"Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
-"Language-Team: English (Canada) <https://translate.ubports.com/projects/"
-"ubports/indicator-sound/en_CA/>\n"
-"Language: en_CA\n"
+"PO-Revision-Date: 2020-04-03 19:22+0000\n"
+"Last-Translator: Ari Börde Kröyer <ari.kroyer@online.no>\n"
+"Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
+"ubports/indicator-sound/nb_NO/>\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,92 +25,92 @@ msgstr ""
 #: ../src/service.vala:299
 #, c-format
 msgid "Volume"
-msgstr "Volume"
+msgstr "Lydstyrke"
 
 #: ../src/info-notification.vala:55
 msgid "Speakers"
-msgstr "Speakers"
+msgstr "Høyttalere"
 
 #: ../src/info-notification.vala:57
 msgid "Headphones"
-msgstr "Headphones"
+msgstr "Hodetelefoner"
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr "Bluetooth headphones"
+msgstr "Blåtannhodetelefoner"
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr "Bluetooth speaker"
+msgstr "Blåtannhøyttaler"
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr "USB speaker"
+msgstr "USB høyttaler"
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr "USB headphones"
+msgstr "USB hodetelefoner"
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr "HDMI speaker"
+msgstr "HDMI høyttaler"
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr "HDMI headphones"
+msgstr "HDMI hodetelefoner"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr "Mute"
+msgstr "Lydløs"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
-msgstr "Silent Mode"
+msgstr "Stillemodus"
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
-msgstr "Sound Settings…"
+msgstr "Lydinnstillinger…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr "Microphone Volume"
+msgstr "Mikrofonlydstyrke"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr "High volume can damage your hearing."
+msgstr "Høy lydstyrke kan skade hørselen."
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
-msgstr "Volume (Headphones)"
+msgstr "Lydstyrke (Hodetelefoner)"
 
 #: ../src/sound-menu.vala:257
 msgid "Volume (Bluetooth)"
-msgstr "Volume (Bluetooth)"
+msgstr "Lydstyrke (Blåtann)"
 
 #: ../src/sound-menu.vala:260
 msgid "Volume (Usb)"
-msgstr "Volume (USB)"
+msgstr "Lydstyrke (USB)"
 
 #: ../src/sound-menu.vala:263
 msgid "Volume (HDMI)"
-msgstr "Volume (HDMI)"
+msgstr "Lydstyrke (HDMI)"
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr "Volume (Bluetooth headphones)"
+msgstr "Lydstyrke (Blåtannhodetelefoner)"
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr "Volume (USB headphones)"
+msgstr "Lydstyrke (USB hodetelefoner)"
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr "Volume (HDMI headphones)"
+msgstr "Lydstyrke (HDMI hodetelefoner)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
-msgstr "Choose Playlist"
+msgstr "Velg spilleliste"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
@@ -118,16 +118,16 @@ msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "Avbryt"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
-msgstr "Volume (muted)"
+msgstr "Lydstyrke (lydløs)"
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr "Silent"
+msgstr "stille"
 
 #: ../src/service.vala:304
 msgid "Sound"
-msgstr "Sound"
+msgstr "Lyd"
