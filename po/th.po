@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-05-25 06:24+0000\n"
-"Last-Translator: Somnuk Limsiroratana <mailsomnuk@yahoo.com>\n"
+"PO-Revision-Date: 2020-06-29 14:52+0000\n"
+"Last-Translator: PPNplus <ppnplus@protonmail.com>\n"
 "Language-Team: Thai <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/th/>\n"
 "Language: th\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
 #: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
@@ -25,43 +25,43 @@ msgstr ""
 #: ../src/service.vala:299
 #, c-format
 msgid "Volume"
-msgstr ""
+msgstr "ระดับเสียง"
 
 #: ../src/info-notification.vala:55
 msgid "Speakers"
-msgstr ""
+msgstr "ลำโพง"
 
 #: ../src/info-notification.vala:57
 msgid "Headphones"
-msgstr ""
+msgstr "หูฟัง"
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr ""
+msgstr "หูฟัง Bluetooth"
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr ""
+msgstr "ลำโพง Bluetooth"
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr ""
+msgstr "ลำโพง USB"
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr ""
+msgstr "หูฟัง USB"
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr ""
+msgstr "ลำโพง HDMI"
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr ""
+msgstr "หูฟัง HDMI"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr ""
+msgstr "ปิดเสียง"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
@@ -69,11 +69,11 @@ msgstr ""
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
-msgstr ""
+msgstr "การตั้งค่าเสียง…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr ""
+msgstr "ระดับเสียงไมโครโฟน"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr ""
+msgstr "ตกลง"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
@@ -130,4 +130,4 @@ msgstr ""
 
 #: ../src/service.vala:304
 msgid "Sound"
-msgstr ""
+msgstr "เสียง"
