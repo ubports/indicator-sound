@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-06-29 14:52+0000\n"
+"PO-Revision-Date: 2020-07-01 03:25+0000\n"
 "Last-Translator: PPNplus <ppnplus@protonmail.com>\n"
 "Language-Team: Thai <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/th/>\n"
@@ -65,7 +65,7 @@ msgstr "ปิดเสียง"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
-msgstr ""
+msgstr "โหมดปิดเสียง"
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
