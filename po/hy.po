@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
 "PO-Revision-Date: 2020-07-03 14:50+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
+"Last-Translator: Tigran Khachatryan <tigrankhachatryan2008@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/hy/>\n"
 "Language: hy\n"
@@ -82,31 +82,31 @@ msgstr "Բարձր ձայնը կարող է վնասել ձեր ականջներ
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (Ականջակալներ)"
 
 #: ../src/sound-menu.vala:257
 msgid "Volume (Bluetooth)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (Bluetooth)"
 
 #: ../src/sound-menu.vala:260
 msgid "Volume (Usb)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (USB)"
 
 #: ../src/sound-menu.vala:263
 msgid "Volume (HDMI)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (HDMI)"
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (Bluetooth ականջակալներ)"
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (USB ականջակալներ)"
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (HDMI ականջակալներ)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
@@ -114,15 +114,15 @@ msgstr "Ընտրել Խաղացանկ"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
-msgstr ""
+msgstr "Չեղարկել"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
-msgstr ""
+msgstr "Ձայնի բարձրություն (անջատած)"
 
 #: ../src/service.vala:296
 msgid "silent"
