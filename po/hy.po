@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-07-03 13:50+0000\n"
-"Last-Translator: Tigran Khachatryan <tigrankhachatryan2008@gmail.com>\n"
+"PO-Revision-Date: 2020-07-03 14:50+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/hy/>\n"
 "Language: hy\n"
@@ -25,11 +25,11 @@ msgstr ""
 #: ../src/service.vala:299
 #, c-format
 msgid "Volume"
-msgstr ""
+msgstr "Ձայն"
 
 #: ../src/info-notification.vala:55
 msgid "Speakers"
-msgstr ""
+msgstr "Խոսնակներ"
 
 #: ../src/info-notification.vala:57
 msgid "Headphones"
@@ -37,48 +37,48 @@ msgstr "Ականջակալներ"
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr ""
+msgstr "Bluetooth ականջակալներ"
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr ""
+msgstr "Bluetooth խոսնակ"
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr ""
+msgstr "USB խոսնակ"
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr ""
+msgstr "USB ականջակալներ"
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr ""
+msgstr "HDMI խոսնակ"
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr ""
+msgstr "HDMI ականջակալներ"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr ""
+msgstr "Ձայնը անջատել"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
-msgstr ""
+msgstr "Անձայն ռեժիմ"
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
-msgstr ""
+msgstr "Ձայնի կարգավորումներ…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr ""
+msgstr "Միկրոֆոնի սենսոր"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Բարձր ձայնը կարող է վնասել ձեր ականջները։"
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
-msgstr ""
+msgstr "Ընտրել Խաղացանկ"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
@@ -126,8 +126,8 @@ msgstr ""
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr ""
+msgstr "անձայն"
 
 #: ../src/service.vala:304
 msgid "Sound"
-msgstr ""
+msgstr "Ձայն"
