@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-07-07 16:32+0000\n"
+"PO-Revision-Date: 2020-07-08 21:50+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/nl/>\n"
@@ -110,7 +110,7 @@ msgstr "Volume (HDMI-koptelefoon)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
-msgstr "Kies afspeellijst"
+msgstr "Kies een afspeellijst"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
