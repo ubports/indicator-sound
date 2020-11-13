@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-11-06 07:43+0000\n"
+"PO-Revision-Date: 2020-11-13 11:36+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/ar/>\n"
@@ -79,7 +79,7 @@ msgstr ""
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "سيضر الصوت العالي سمعك."
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
@@ -127,7 +127,7 @@ msgstr ""
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr ""
+msgstr "صامت"
 
 #: ../src/service.vala:304
 msgid "Sound"
