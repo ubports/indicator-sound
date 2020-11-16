@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-10-26 21:27+0000\n"
+"PO-Revision-Date: 2020-11-12 14:00+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/nl/>\n"
@@ -86,27 +86,27 @@ msgstr "Volume (koptelefoon)"
 
 #: ../src/sound-menu.vala:257
 msgid "Volume (Bluetooth)"
-msgstr "Volume (Bluetooth)"
+msgstr "Volume (bluetooth)"
 
 #: ../src/sound-menu.vala:260
 msgid "Volume (Usb)"
-msgstr "Volume (USB)"
+msgstr "Volume (usb)"
 
 #: ../src/sound-menu.vala:263
 msgid "Volume (HDMI)"
-msgstr "Volume (HDMI)"
+msgstr "Volume (hdmi)"
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr "Volume (Bluetooth-koptelefoon)"
+msgstr "Volume (bluetooth-koptelefoon)"
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr "Volume (USB-koptelefoon)"
+msgstr "Volume (usb-koptelefoon)"
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr "Volume (HDMI-koptelefoon)"
+msgstr "Volume (hdmi-koptelefoon)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
@@ -114,7 +114,7 @@ msgstr "Kies een afspeellijst"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "Oké"
+msgstr "Uitzetten"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
