@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-07 17:03-0500\n"
-"PO-Revision-Date: 2020-11-01 12:04+0000\n"
+"PO-Revision-Date: 2021-04-22 10:44+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/cs/>\n"
@@ -114,7 +114,7 @@ msgstr "Zvolte seznam stop"
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "OK"
+msgstr "Přijmout"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
