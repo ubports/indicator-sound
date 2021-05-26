@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 17:03-0500\n"
+"POT-Creation-Date: 2021-05-26 13:28-0500\n"
 "PO-Revision-Date: 2020-08-15 21:53+0000\n"
 "Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
 "Language-Team: Greek <https://translate.ubports.com/projects/ubports/"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
-#: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
-#: ../src/warn-notification.vala:31 ../src/service.vala:296
-#: ../src/service.vala:299
+#: ../src/service.vala:296 ../src/service.vala:299 ../src/sound-menu.vala:57
+#: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
 msgstr "Ένταση"
@@ -59,6 +58,18 @@ msgstr "HDMI ηχείο"
 msgid "HDMI headphones"
 msgstr "HDMI ακουστικά"
 
+#: ../src/service.vala:293
+msgid "Volume (muted)"
+msgstr "Ένταση (αθόρυβη)"
+
+#: ../src/service.vala:296
+msgid "silent"
+msgstr "αθόρυβος"
+
+#: ../src/service.vala:304
+msgid "Sound"
+msgstr "Ήχος"
+
 #: ../src/sound-menu.vala:50
 msgid "Mute"
 msgstr "Σίγαση"
@@ -76,7 +87,7 @@ msgid "Microphone Volume"
 msgstr "Ένταση μικρόφωνου"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
-#: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
+#: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
 msgstr "Η υψηλή ένταση μπορεί να τραυματίσει την ακοή σου."
 
@@ -112,6 +123,14 @@ msgstr "Ένταση (HDMI ακουστικά)"
 msgid "Choose Playlist"
 msgstr "Επίλεξε λίστα αναπαραγωγής"
 
+#: ../src/warn-notification.vala:32
+#, fuzzy
+#| msgid "High volume can damage your hearing."
+msgid ""
+"Allow volume above safe level?\n"
+"High volume can damage your hearing."
+msgstr "Η υψηλή ένταση μπορεί να τραυματίσει την ακοή σου."
+
 #: ../src/warn-notification.vala:49
 msgid "OK"
 msgstr "ΟΚ"
@@ -119,15 +138,3 @@ msgstr "ΟΚ"
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
 msgstr "Ακύρωση"
-
-#: ../src/service.vala:293
-msgid "Volume (muted)"
-msgstr "Ένταση (αθόρυβη)"
-
-#: ../src/service.vala:296
-msgid "silent"
-msgstr "αθόρυβος"
-
-#: ../src/service.vala:304
-msgid "Sound"
-msgstr "Ήχος"

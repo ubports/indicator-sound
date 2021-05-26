@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 17:03-0500\n"
+"POT-Creation-Date: 2021-05-26 13:28-0500\n"
 "PO-Revision-Date: 2019-08-01 21:49+0000\n"
 "Last-Translator: Moo <moose@mail.ru>\n"
 "Language-Team: Lithuanian <https://translate.ubports.com/projects/ubports/"
@@ -22,9 +22,8 @@ msgstr ""
 "X-Generator: Weblate 3.6.1\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
-#: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
-#: ../src/warn-notification.vala:31 ../src/service.vala:296
-#: ../src/service.vala:299
+#: ../src/service.vala:296 ../src/service.vala:299 ../src/sound-menu.vala:57
+#: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
 msgstr "Garsis"
@@ -61,6 +60,18 @@ msgstr "HDMI garsiakalbis"
 msgid "HDMI headphones"
 msgstr "HDMI ausinės"
 
+#: ../src/service.vala:293
+msgid "Volume (muted)"
+msgstr "Garsis (nutildytas)"
+
+#: ../src/service.vala:296
+msgid "silent"
+msgstr ""
+
+#: ../src/service.vala:304
+msgid "Sound"
+msgstr "Garsas"
+
 #: ../src/sound-menu.vala:50
 msgid "Mute"
 msgstr "Nutildyti"
@@ -78,7 +89,7 @@ msgid "Microphone Volume"
 msgstr "Mikrofono garsis"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
-#: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
+#: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
 msgstr "Didelis garsis gali pažeisti jūsų klausą."
 
@@ -114,6 +125,14 @@ msgstr "Garsis (HDMI ausinės)"
 msgid "Choose Playlist"
 msgstr ""
 
+#: ../src/warn-notification.vala:32
+#, fuzzy
+#| msgid "High volume can damage your hearing."
+msgid ""
+"Allow volume above safe level?\n"
+"High volume can damage your hearing."
+msgstr "Didelis garsis gali pažeisti jūsų klausą."
+
 #: ../src/warn-notification.vala:49
 msgid "OK"
 msgstr "Gerai"
@@ -121,15 +140,3 @@ msgstr "Gerai"
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
 msgstr "Atsisakyti"
-
-#: ../src/service.vala:293
-msgid "Volume (muted)"
-msgstr "Garsis (nutildytas)"
-
-#: ../src/service.vala:296
-msgid "silent"
-msgstr ""
-
-#: ../src/service.vala:304
-msgid "Sound"
-msgstr "Garsas"
