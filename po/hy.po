@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 17:03-0500\n"
+"POT-Creation-Date: 2021-05-26 13:28-0500\n"
 "PO-Revision-Date: 2020-07-03 14:50+0000\n"
 "Last-Translator: Tigran Khachatryan <tigrankhachatryan2008@gmail.com>\n"
 "Language-Team: Armenian <https://translate.ubports.com/projects/ubports/"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
-#: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
-#: ../src/warn-notification.vala:31 ../src/service.vala:296
-#: ../src/service.vala:299
+#: ../src/service.vala:296 ../src/service.vala:299 ../src/sound-menu.vala:57
+#: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
 msgstr "Ձայն"
@@ -59,6 +58,18 @@ msgstr "HDMI խոսնակ"
 msgid "HDMI headphones"
 msgstr "HDMI ականջակալներ"
 
+#: ../src/service.vala:293
+msgid "Volume (muted)"
+msgstr "Ձայնի բարձրություն (անջատած)"
+
+#: ../src/service.vala:296
+msgid "silent"
+msgstr "անձայն"
+
+#: ../src/service.vala:304
+msgid "Sound"
+msgstr "Ձայն"
+
 #: ../src/sound-menu.vala:50
 msgid "Mute"
 msgstr "Ձայնը անջատել"
@@ -76,7 +87,7 @@ msgid "Microphone Volume"
 msgstr "Միկրոֆոնի սենսոր"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
-#: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
+#: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
 msgstr "Բարձր ձայնը կարող է վնասել ձեր ականջները։"
 
@@ -112,6 +123,14 @@ msgstr "Ձայնի բարձրություն (HDMI ականջակալներ)"
 msgid "Choose Playlist"
 msgstr "Ընտրել Խաղացանկ"
 
+#: ../src/warn-notification.vala:32
+#, fuzzy
+#| msgid "High volume can damage your hearing."
+msgid ""
+"Allow volume above safe level?\n"
+"High volume can damage your hearing."
+msgstr "Բարձր ձայնը կարող է վնասել ձեր ականջները։"
+
 #: ../src/warn-notification.vala:49
 msgid "OK"
 msgstr "OK"
@@ -119,15 +138,3 @@ msgstr "OK"
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
 msgstr "Չեղարկել"
-
-#: ../src/service.vala:293
-msgid "Volume (muted)"
-msgstr "Ձայնի բարձրություն (անջատած)"
-
-#: ../src/service.vala:296
-msgid "silent"
-msgstr "անձայն"
-
-#: ../src/service.vala:304
-msgid "Sound"
-msgstr "Ձայն"

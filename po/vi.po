@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 17:03-0500\n"
+"POT-Creation-Date: 2021-05-26 13:28-0500\n"
 "PO-Revision-Date: 2020-06-17 09:25+0000\n"
 "Last-Translator: Phu1237 <phuvip867@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.ubports.com/projects/ubports/"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
-#: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
-#: ../src/warn-notification.vala:31 ../src/service.vala:296
-#: ../src/service.vala:299
+#: ../src/service.vala:296 ../src/service.vala:299 ../src/sound-menu.vala:57
+#: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
 msgstr "Âm lượng"
@@ -59,6 +58,18 @@ msgstr "Loa HDMI"
 msgid "HDMI headphones"
 msgstr "Tai nghe chụp tai HDMI"
 
+#: ../src/service.vala:293
+msgid "Volume (muted)"
+msgstr "Âm lượng (im lặng)"
+
+#: ../src/service.vala:296
+msgid "silent"
+msgstr "im lặng"
+
+#: ../src/service.vala:304
+msgid "Sound"
+msgstr "Âm thanh"
+
 #: ../src/sound-menu.vala:50
 msgid "Mute"
 msgstr "Im lặng"
@@ -76,7 +87,7 @@ msgid "Microphone Volume"
 msgstr "Âm lượng Microphone"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
-#: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
+#: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
 msgstr "Âm lượng quá lớn có thể làm tổn thương thính giác của bạn."
 
@@ -112,6 +123,14 @@ msgstr "Âm lượng (Tai nghe chụp tai HDMI)"
 msgid "Choose Playlist"
 msgstr "Chọn danh sách bài hát"
 
+#: ../src/warn-notification.vala:32
+#, fuzzy
+#| msgid "High volume can damage your hearing."
+msgid ""
+"Allow volume above safe level?\n"
+"High volume can damage your hearing."
+msgstr "Âm lượng quá lớn có thể làm tổn thương thính giác của bạn."
+
 #: ../src/warn-notification.vala:49
 msgid "OK"
 msgstr "Chấp nhận"
@@ -119,15 +138,3 @@ msgstr "Chấp nhận"
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
 msgstr "Huỷ bỏ"
-
-#: ../src/service.vala:293
-msgid "Volume (muted)"
-msgstr "Âm lượng (im lặng)"
-
-#: ../src/service.vala:296
-msgid "silent"
-msgstr "im lặng"
-
-#: ../src/service.vala:304
-msgid "Sound"
-msgstr "Âm thanh"

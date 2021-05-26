@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 17:03-0500\n"
+"POT-Creation-Date: 2021-05-26 13:28-0500\n"
 "PO-Revision-Date: 2020-11-26 15:47+0000\n"
 "Last-Translator: Zmicer <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
@@ -16,14 +16,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.11.3\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
-#: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
-#: ../src/warn-notification.vala:31 ../src/service.vala:296
-#: ../src/service.vala:299
+#: ../src/service.vala:296 ../src/service.vala:299 ../src/sound-menu.vala:57
+#: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
 msgstr "Гучнасць"
@@ -60,6 +59,18 @@ msgstr "Калонка HDMI"
 msgid "HDMI headphones"
 msgstr "Навушнікі HDMI"
 
+#: ../src/service.vala:293
+msgid "Volume (muted)"
+msgstr "Гучнасць (сцішана)"
+
+#: ../src/service.vala:296
+msgid "silent"
+msgstr "сцішана"
+
+#: ../src/service.vala:304
+msgid "Sound"
+msgstr "Гук"
+
 #: ../src/sound-menu.vala:50
 msgid "Mute"
 msgstr "Без гуку"
@@ -77,7 +88,7 @@ msgid "Microphone Volume"
 msgstr "Гучнасць мікрафона"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
-#: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
+#: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
 msgstr "Высокая гучнасць можа пашкодзіць ваш слых."
 
@@ -113,6 +124,14 @@ msgstr "Гучнасць (Навушнікі HDMI)"
 msgid "Choose Playlist"
 msgstr "Абраць спіс прайгравання"
 
+#: ../src/warn-notification.vala:32
+#, fuzzy
+#| msgid "High volume can damage your hearing."
+msgid ""
+"Allow volume above safe level?\n"
+"High volume can damage your hearing."
+msgstr "Высокая гучнасць можа пашкодзіць ваш слых."
+
 #: ../src/warn-notification.vala:49
 msgid "OK"
 msgstr "Добра"
@@ -120,15 +139,3 @@ msgstr "Добра"
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
 msgstr "Скасаваць"
-
-#: ../src/service.vala:293
-msgid "Volume (muted)"
-msgstr "Гучнасць (сцішана)"
-
-#: ../src/service.vala:296
-msgid "silent"
-msgstr "сцішана"
-
-#: ../src/service.vala:304
-msgid "Sound"
-msgstr "Гук"

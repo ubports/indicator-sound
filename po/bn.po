@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 17:03-0500\n"
+"POT-Creation-Date: 2021-05-26 13:28-0500\n"
 "PO-Revision-Date: 2021-01-30 14:27+0000\n"
 "Last-Translator: imrufbd <imrufbd@gmail.com>\n"
 "Language-Team: Bengali <https://translate.ubports.com/projects/ubports/"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.11.3\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
-#: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
-#: ../src/warn-notification.vala:31 ../src/service.vala:296
-#: ../src/service.vala:299
+#: ../src/service.vala:296 ../src/service.vala:299 ../src/sound-menu.vala:57
+#: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
 msgstr "প্রাবল্য"
@@ -59,6 +58,18 @@ msgstr "HDMI শব্দযন্ত্র"
 msgid "HDMI headphones"
 msgstr "HDMI কর্ণকথক"
 
+#: ../src/service.vala:293
+msgid "Volume (muted)"
+msgstr "প্রাবল্য (নিরব)"
+
+#: ../src/service.vala:296
+msgid "silent"
+msgstr "নিঃশব্দ"
+
+#: ../src/service.vala:304
+msgid "Sound"
+msgstr "শব্দ"
+
 #: ../src/sound-menu.vala:50
 msgid "Mute"
 msgstr "নিরব"
@@ -76,7 +87,7 @@ msgid "Microphone Volume"
 msgstr "বিবর্ধক প্রাবল্য"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
-#: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
+#: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
 msgstr "উচ্চ প্রাবল্য আপনার শ্রবণেন্দ্রিয় ক্ষতিগ্রস্থ করতে পারে।"
 
@@ -112,6 +123,14 @@ msgstr "প্রাবল্য (HDMI কর্ণকথক)"
 msgid "Choose Playlist"
 msgstr "প্লেতালিকা নির্বাচন করুন"
 
+#: ../src/warn-notification.vala:32
+#, fuzzy
+#| msgid "High volume can damage your hearing."
+msgid ""
+"Allow volume above safe level?\n"
+"High volume can damage your hearing."
+msgstr "উচ্চ প্রাবল্য আপনার শ্রবণেন্দ্রিয় ক্ষতিগ্রস্থ করতে পারে।"
+
 #: ../src/warn-notification.vala:49
 msgid "OK"
 msgstr "ঠিক আছে"
@@ -119,15 +138,3 @@ msgstr "ঠিক আছে"
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
 msgstr "বাতিল"
-
-#: ../src/service.vala:293
-msgid "Volume (muted)"
-msgstr "প্রাবল্য (নিরব)"
-
-#: ../src/service.vala:296
-msgid "silent"
-msgstr "নিঃশব্দ"
-
-#: ../src/service.vala:304
-msgid "Sound"
-msgstr "শব্দ"

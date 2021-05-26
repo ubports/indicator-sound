@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 17:03-0500\n"
+"POT-Creation-Date: 2021-05-26 13:28-0500\n"
 "PO-Revision-Date: 2019-01-12 10:50+0000\n"
 "Last-Translator: Adrià <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
@@ -20,9 +20,8 @@ msgstr ""
 "X-Generator: Weblate 3.1.1\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
-#: ../src/sound-menu.vala:57 ../src/sound-menu.vala:251
-#: ../src/warn-notification.vala:31 ../src/service.vala:296
-#: ../src/service.vala:299
+#: ../src/service.vala:296 ../src/service.vala:299 ../src/sound-menu.vala:57
+#: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
 msgstr "Volùmene"
@@ -59,6 +58,18 @@ msgstr "Altoparlante HDMI"
 msgid "HDMI headphones"
 msgstr "Auricolares HDMI"
 
+#: ../src/service.vala:293
+msgid "Volume (muted)"
+msgstr "Volùmene (a sa muda)"
+
+#: ../src/service.vala:296
+msgid "silent"
+msgstr "a sa muda"
+
+#: ../src/service.vala:304
+msgid "Sound"
+msgstr "Sonu"
+
 #: ../src/sound-menu.vala:50
 msgid "Mute"
 msgstr "A sa muda"
@@ -76,7 +87,7 @@ msgid "Microphone Volume"
 msgstr "Volùmene de su micròfonu"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
-#: ../src/sound-menu.vala:146 ../src/warn-notification.vala:32
+#: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
 msgstr "Su volume tropu artu podet iscalabrare s'uditu."
 
@@ -112,6 +123,14 @@ msgstr "Volùmene (auricolares HDMI)"
 msgid "Choose Playlist"
 msgstr "Sèbera lista de riprodutzione"
 
+#: ../src/warn-notification.vala:32
+#, fuzzy
+#| msgid "High volume can damage your hearing."
+msgid ""
+"Allow volume above safe level?\n"
+"High volume can damage your hearing."
+msgstr "Su volume tropu artu podet iscalabrare s'uditu."
+
 #: ../src/warn-notification.vala:49
 msgid "OK"
 msgstr "AB"
@@ -119,15 +138,3 @@ msgstr "AB"
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
 msgstr "Annulla"
-
-#: ../src/service.vala:293
-msgid "Volume (muted)"
-msgstr "Volùmene (a sa muda)"
-
-#: ../src/service.vala:296
-msgid "silent"
-msgstr "a sa muda"
-
-#: ../src/service.vala:304
-msgid "Sound"
-msgstr "Sonu"
