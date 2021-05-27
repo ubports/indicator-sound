@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2021-04-22 10:44+0000\n"
+"PO-Revision-Date: 2021-05-26 21:34+0000\n"
 "Last-Translator: Milan Korecký <milan.korecky@gmail.com>\n"
 "Language-Team: Czech <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/cs/>\n"
@@ -124,12 +124,12 @@ msgid "Choose Playlist"
 msgstr "Zvolte seznam stop"
 
 #: ../src/warn-notification.vala:32
-#, fuzzy
-#| msgid "High volume can damage your hearing."
 msgid ""
 "Allow volume above safe level?\n"
 "High volume can damage your hearing."
-msgstr "Vysoká hlasitost může poškodit váš sluch."
+msgstr ""
+"Povolit hlasitost nad bezpečnou úroveň?\n"
+"Velká hlasitost může poškodit váš sluch."
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
