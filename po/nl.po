@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2021-05-27 12:35+0000\n"
+"PO-Revision-Date: 2021-05-29 18:40+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/nl/>\n"
@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "Uitzetten"
+msgstr "Oké"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"
