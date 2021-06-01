@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2020-10-26 23:24+0000\n"
+"PO-Revision-Date: 2021-05-28 00:46+0000\n"
 "Last-Translator: Joan CiberSheep <cibersheep@gmail.com>\n"
 "Language-Team: Catalan <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/ca/>\n"
@@ -124,12 +124,12 @@ msgid "Choose Playlist"
 msgstr "Seleccioneu llista de reproducció"
 
 #: ../src/warn-notification.vala:32
-#, fuzzy
-#| msgid "High volume can damage your hearing."
 msgid ""
 "Allow volume above safe level?\n"
 "High volume can damage your hearing."
-msgstr "Un volum massa alt pot produir danys auditius."
+msgstr ""
+"Voleu permetre que el volum superi el nivell de seguretat?\n"
+"Un volum massa alt pot produir danys auditius."
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
