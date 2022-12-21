@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2020-07-03 12:43+0000\n"
-"Last-Translator: Stoian Minaiev <stoyan.minaev@gmail.com>\n"
+"PO-Revision-Date: 2022-09-05 19:21+0000\n"
+"Last-Translator: Serhii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.11.3\n"
 
 #: ../src/info-notification.vala:25 ../src/info-notification.vala:42
@@ -25,114 +25,116 @@ msgstr ""
 #: ../src/sound-menu.vala:251 ../src/warn-notification.vala:31
 #, c-format
 msgid "Volume"
-msgstr ""
+msgstr "Гучність"
 
 #: ../src/info-notification.vala:55
 msgid "Speakers"
-msgstr ""
+msgstr "Гучномовці"
 
 #: ../src/info-notification.vala:57
 msgid "Headphones"
-msgstr ""
+msgstr "Навушники"
 
 #: ../src/info-notification.vala:59
 msgid "Bluetooth headphones"
-msgstr ""
+msgstr "Bluetooth навушники"
 
 #: ../src/info-notification.vala:61
 msgid "Bluetooth speaker"
-msgstr ""
+msgstr "Bluetooth гучномовець"
 
 #: ../src/info-notification.vala:63
 msgid "Usb speaker"
-msgstr ""
+msgstr "USB гучномовець"
 
 #: ../src/info-notification.vala:65
 msgid "Usb headphones"
-msgstr ""
+msgstr "USB навушники"
 
 #: ../src/info-notification.vala:67
 msgid "HDMI speaker"
-msgstr ""
+msgstr "HDMI гучномовець"
 
 #: ../src/info-notification.vala:69
 msgid "HDMI headphones"
-msgstr ""
+msgstr "HDMI навушники"
 
 #: ../src/service.vala:293
 msgid "Volume (muted)"
-msgstr ""
+msgstr "Гучність (вимкнено)"
 
 #: ../src/service.vala:296
 msgid "silent"
-msgstr ""
+msgstr "тихий"
 
 #: ../src/service.vala:304
 msgid "Sound"
-msgstr ""
+msgstr "Звук"
 
 #: ../src/sound-menu.vala:50
 msgid "Mute"
-msgstr ""
+msgstr "Без звуку"
 
 #: ../src/sound-menu.vala:52
 msgid "Silent Mode"
-msgstr ""
+msgstr "Тихий режим"
 
 #: ../src/sound-menu.vala:66
 msgid "Sound Settings…"
-msgstr ""
+msgstr "Налаштування звуку…"
 
 #: ../src/sound-menu.vala:123
 msgid "Microphone Volume"
-msgstr ""
+msgstr "Гучність мікрофона"
 
 #. NOTE: Action doesn't really exist, just used to find below when removing
 #: ../src/sound-menu.vala:146
 msgid "High volume can damage your hearing."
-msgstr ""
+msgstr "Велика гучність може нашкодити слуху."
 
 #: ../src/sound-menu.vala:254
 msgid "Volume (Headphones)"
-msgstr ""
+msgstr "Гучність (Навушники)"
 
 #: ../src/sound-menu.vala:257
 msgid "Volume (Bluetooth)"
-msgstr ""
+msgstr "Гучність (Bluetooth)"
 
 #: ../src/sound-menu.vala:260
 msgid "Volume (Usb)"
-msgstr ""
+msgstr "Гучність (USB)"
 
 #: ../src/sound-menu.vala:263
 msgid "Volume (HDMI)"
-msgstr ""
+msgstr "Гучність (HDMI)"
 
 #: ../src/sound-menu.vala:266
 msgid "Volume (Bluetooth headphones)"
-msgstr ""
+msgstr "Гучність (Bluetooth навушники)"
 
 #: ../src/sound-menu.vala:269
 msgid "Volume (Usb headphones)"
-msgstr ""
+msgstr "Гучність (USB навушники)"
 
 #: ../src/sound-menu.vala:272
 msgid "Volume (HDMI headphones)"
-msgstr ""
+msgstr "Гучність (HDMI навушники)"
 
 #: ../src/sound-menu.vala:445
 msgid "Choose Playlist"
-msgstr ""
+msgstr "Оберіть плейлист"
 
 #: ../src/warn-notification.vala:32
 msgid ""
 "Allow volume above safe level?\n"
 "High volume can damage your hearing."
 msgstr ""
+"Дозволити понадбезпечну гучність? \n"
+"Велика гучність може нашкодити слуху."
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
-msgstr "Добре"
+msgstr "ОК"
 
 #: ../src/warn-notification.vala:52
 msgid "Cancel"

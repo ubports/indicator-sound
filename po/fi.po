@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2020-11-23 18:30+0000\n"
+"PO-Revision-Date: 2022-09-24 13:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/fi/>\n"
@@ -124,12 +124,12 @@ msgid "Choose Playlist"
 msgstr "Valitse soittolista"
 
 #: ../src/warn-notification.vala:32
-#, fuzzy
-#| msgid "High volume can damage your hearing."
 msgid ""
 "Allow volume above safe level?\n"
 "High volume can damage your hearing."
-msgstr "Suuri äänenvoimakkuus voi vahingoittaa kuuloasi."
+msgstr ""
+"Sallitaanko äänenvoimakkuus turvallisen tason yli?\n"
+"Suuri äänenvoimakkuus voi vahingoittaa kuuloasi."
 
 #: ../src/warn-notification.vala:49
 msgid "OK"

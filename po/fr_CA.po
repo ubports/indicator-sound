@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2021-03-13 14:13+0000\n"
-"Last-Translator: Ryan Argente <rargente@lonerider.one>\n"
+"PO-Revision-Date: 2022-09-28 04:08+0000\n"
+"Last-Translator: Antoine Mailhot <capitaineam@outlook.com>\n"
 "Language-Team: French (Canada) <https://translate.ubports.com/projects/"
 "ubports/indicator-sound/fr_CA/>\n"
 "Language: fr_CA\n"
@@ -124,12 +124,12 @@ msgid "Choose Playlist"
 msgstr "Choisir une liste de lecture"
 
 #: ../src/warn-notification.vala:32
-#, fuzzy
-#| msgid "High volume can damage your hearing."
 msgid ""
 "Allow volume above safe level?\n"
 "High volume can damage your hearing."
-msgstr "Un volume sonore élevé peut endommager votre audition."
+msgstr ""
+"Autoriser le volume au-dessus du niveau sécuritaire ?\n"
+"Un volume sonore élevé peut endommager votre audition."
 
 #: ../src/warn-notification.vala:49
 msgid "OK"

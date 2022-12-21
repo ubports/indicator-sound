@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2020-08-15 21:53+0000\n"
+"PO-Revision-Date: 2021-09-20 23:03+0000\n"
 "Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
 "Language-Team: Greek <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/el/>\n"
@@ -124,12 +124,12 @@ msgid "Choose Playlist"
 msgstr "Επίλεξε λίστα αναπαραγωγής"
 
 #: ../src/warn-notification.vala:32
-#, fuzzy
-#| msgid "High volume can damage your hearing."
 msgid ""
 "Allow volume above safe level?\n"
 "High volume can damage your hearing."
-msgstr "Η υψηλή ένταση μπορεί να τραυματίσει την ακοή σου."
+msgstr ""
+"Να επιτρέπεται η ένταση του ήχου πάνω από το ασφαλές επίπεδο;\n"
+"Η υψηλή ένταση μπορεί να βλάψει την ακοή σας."
 
 #: ../src/warn-notification.vala:49
 msgid "OK"

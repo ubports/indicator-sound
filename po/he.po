@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-26 13:28-0500\n"
-"PO-Revision-Date: 2020-12-17 14:38+0000\n"
+"PO-Revision-Date: 2021-10-03 13:35+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.ubports.com/projects/ubports/"
 "indicator-sound/he/>\n"
@@ -125,12 +125,12 @@ msgid "Choose Playlist"
 msgstr "בחר פלייליסט"
 
 #: ../src/warn-notification.vala:32
-#, fuzzy
-#| msgid "High volume can damage your hearing."
 msgid ""
 "Allow volume above safe level?\n"
 "High volume can damage your hearing."
-msgstr "עוצמת קול גבוהה עלולה לפגוע בשמיעה שלך."
+msgstr ""
+"לאפשר עצמה מעבר לרמה הבטוחה?\n"
+"עוצמת קול גבוהה עלולה לפגוע בשמיעה שלך."
 
 #: ../src/warn-notification.vala:49
 msgid "OK"
